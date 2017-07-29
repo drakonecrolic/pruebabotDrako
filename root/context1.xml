@@ -1,6 +1,9 @@
 <context>
   <input pattern="(hola|buen día) *">
   <output value="Hola qué tal"/>
-
+  <context>
+    <input pattern="(qué día es hoy) *">
+      <output value="Hoy es hoy"/>
+  </context>
 </input>
 </context>
