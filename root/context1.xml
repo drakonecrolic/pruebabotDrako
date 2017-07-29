@@ -1,6 +1,6 @@
 <context>
-  <input pattern="(hello|hi) *">
-    <output value="Hello $UserName!" if="full($UserName)"/>
+  <input pattern="(hola) *">
+    <output value="Hola $UserName!" if="full($UserName)"/>
 
     <context if="empty($UserName)">
       <output value="Hi! What is your name?"/>
