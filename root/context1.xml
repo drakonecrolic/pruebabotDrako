@@ -1,6 +1,6 @@
 <context>
-  <input pattern="(hola|buenas) *">
-  <output value="¡Hola! ¿digame cual es su problema?"/>
+  <input pattern="(hi|hello) *">
+  <output value="Hi! What is your favorite color?"/>
 
   <context>
     <sample>
