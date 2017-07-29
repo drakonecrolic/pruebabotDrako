@@ -4,6 +4,7 @@
   <context>
     <input pattern="(qué día es hoy) *">
       <output value="Hoy es hoy"/>
+    </input>
   </context>
 </input>
 </context>
