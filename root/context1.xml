@@ -1,5 +1,5 @@
 <context>
-  <input pattern="(hola|Hola) *">
+  <input pattern="(hola) *">
     <output>
       <item>¡Hey!</item>
       <item>¡Hola!</item>
