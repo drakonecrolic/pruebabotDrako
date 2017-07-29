@@ -1,15 +1,9 @@
 <context>
-  <input pattern="(Hola|hola) *">
-    <output value="Hola $UserName!" if="full($UserName)"/>
-
-    <context if="empty($UserName)">
-      <output value="Hi! What is your name?"/>
-
-      <input pattern="$Text">
-        <var name="UserName" value="$Text" scope="user"/>
-        <output value="Nice to meet you $UserName!"/>
-      </input>
-
-    </context>
+  <input pattern="(hola|Hola) *">
+    <output>
+      <item>¡Hey!</item>
+      <item>¡Hola!</item>
+      <item>Buen día $UserName!</item>
+    </output>
   </input>
 </context>
